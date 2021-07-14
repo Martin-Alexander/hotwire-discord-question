@@ -12,10 +12,11 @@ The views look like this:
   <%= link_to 'Grapes', grapes_path %>
 <% end %>
 
-<!-- app/views/grapes/index.html.erb -->
 ```
 
 ```
+<!-- app/views/grapes/index.html.erb -->
+
 <%= turbo_frame_tag 'fruits' do %>
   <%= link_to 'Apples', apples_path %>
   <%= link_to 'Grapes', grapes_path %>
